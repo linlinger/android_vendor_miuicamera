@@ -23,7 +23,16 @@ android_app_import {
 	name: "MiuiCamera",
 	owner: "miuicamera",
 	apk: "proprietary/priv-app/MiuiCamera/MiuiCamera.apk",
-	overrides: ["Aperture", "Camera", "Camera2", "GoogleCameraGo"],
+	overrides: [
+      "SnapdragonCamera",
+      "Camera2",
+      "Snap",
+      "Snap2",
+      "Gallery2",
+      "Aperture",
+      "Flash",
+      "GoogleCamera",
+    ],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
